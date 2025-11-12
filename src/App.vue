@@ -1,6 +1,5 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import Intro from './components/Intro.vue'
 </script>
 
 <template>
@@ -12,7 +11,7 @@ import Intro from './components/Intro.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <Intro />
+  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>
