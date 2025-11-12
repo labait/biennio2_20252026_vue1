@@ -1,17 +1,18 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue';
+import Headline from './components/Headline.vue';
+import Footer from './components/Footer.vue';
+import Works from './components/Works.vue';
+
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <main class="w-full max-w-4xl mx-auto">
+    <Header class="mb-8" />
+    <Headline class="mb-4" />
+    <Works class="mb-4" />
+    <Footer class="mt-8" />
+  </main>
 </template>
 
 <style scoped>
