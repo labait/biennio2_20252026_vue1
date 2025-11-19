@@ -1,5 +1,6 @@
 <script setup>
 import Header from './components/Header.vue';
+import Citation from './components/Citation.vue';
 import Headline from './components/Headline.vue';
 import Footer from './components/Footer.vue';
 import Works from './components/Works.vue';
@@ -10,8 +11,9 @@ import Works from './components/Works.vue';
   <main class="w-full max-w-4xl mx-auto">
     <Header class="mb-8" />
     <Headline class="mb-4" />
-    <Works class="mb-4" />
-    <Footer class="mt-8" />
+    <Citation class="mb-4" />bbb
+    <!-- <Works class="mb-4" />
+    <Footer class="mt-8" /> -->
   </main>
 </template>
 
