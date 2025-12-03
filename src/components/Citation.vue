@@ -12,5 +12,13 @@ onMounted( async() => {
 </script>
 
 <template>
-  <div>{{ citation }}</div>
+  <h2 class="text-xl font-semibold mb-2">Random Citation</h2>
+  <div v-if="citation">
+    <div id="citation" class="p-4 bg-gray-100 rounded-lg mb-8">
+      <p class="text-gray-700 font-mono">{{ citation }}</p>
+    </div>
+  </div>
+  <div v-else class="mb-6">
+    <p>Loading citation...</p>
+  </div>
 </template>

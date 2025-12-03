@@ -1,5 +1,9 @@
+<script setup>
+import { RouterLink } from 'vue-router';
+</script>
+
 <template>
   <header class="">
-    <h1 class="text-2xl font-bold">My portfolio</h1>
+    <RouterLink class="text-2xl font-bold" to="/">My portfolio</RouterLink>
   </header>
 </template>
