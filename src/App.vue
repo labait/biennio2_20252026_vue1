@@ -13,7 +13,7 @@ const global = ref({
 onMounted(async () => {
   const sheet_id = "1dLLOAmepnXzuEYwiHXzsj2vZj4L5aWnWF4k6C0WU9qw" // spreadsheet id
   const range = "data!a1:e100" // ie: Sheet1!A1:c100
-  const api_key = "API_KEY" // insert your api key
+  const api_key = "AIzaSyCEYUN78JVQmsga3UTsSgmmQkY8TxncMvs" // insert your api key
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheet_id}/values/${range}?key=${api_key}`
   const response = await fetch(url);
   //console.log(response);

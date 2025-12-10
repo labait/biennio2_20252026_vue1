@@ -6,12 +6,12 @@ import WorkView from './views/WorkView.vue';
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'HomeView',
     component: HomepageView,
   },
   {
     path: '/work/:id',
-    name: 'WorkDetail',
+    name: 'WorkView',
     component: WorkView,
     props: true,
   },
